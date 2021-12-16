@@ -19,8 +19,8 @@ namespace ColorHand
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ColorHand colorDialogX = new ColorHand();
-            colorDialogX
+            ColorHand ColorDialogX = new ColorHand();
+            ColorDialogX
         }
     }
 }
