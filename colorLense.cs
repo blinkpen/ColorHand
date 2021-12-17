@@ -91,7 +91,7 @@ namespace ColorHand
 
             if (wParam.ToInt32() == WM_MOUSEHOVER)
             {
-                return 1;
+                return 0;
             }
             
             return CallNextHookEx(WH_MOUSE_LL, nCode, wParam, ref lParam);
@@ -162,7 +162,7 @@ namespace ColorHand
             }
         }
 
-        private void colorUpdater()
+        public void colorUpdater()
         {
             hex = ColorTranslator.ToHtml(selectedColor);
             R = selectedColor.R;

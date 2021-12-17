@@ -50,7 +50,7 @@ namespace ColorHand
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 3);
+            this.button1.Location = new System.Drawing.Point(238, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(30, 23);
             this.button1.TabIndex = 1;
@@ -88,11 +88,11 @@ namespace ColorHand
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(11, 330);
+            this.label2.Location = new System.Drawing.Point(7, 330);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 14);
+            this.label2.Size = new System.Drawing.Size(74, 14);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Hexidecimal";
+            this.label2.Text = "Hexadecimal";
             // 
             // label3
             // 
@@ -133,7 +133,7 @@ namespace ColorHand
             // 
             // colorLense2
             // 
-            this.colorLense2.BackColor = System.Drawing.Color.Lime;
+            this.colorLense2.BackColor = System.Drawing.Color.White;
             this.colorLense2.Location = new System.Drawing.Point(11, 32);
             this.colorLense2.Name = "colorLense2";
             this.colorLense2.Size = new System.Drawing.Size(257, 257);
@@ -212,6 +212,7 @@ namespace ColorHand
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Color Hand";
             this.TransparencyKey = System.Drawing.Color.Lime;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

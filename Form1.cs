@@ -16,14 +16,16 @@ namespace ColorHand
         private int ypos;
         private Point pos = new Point();
         public bool running = false;
+
         public Form1()
         {
             InitializeComponent();
+            this.TopMost = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-       
+            colorLense2.selectedColor = Color.FromArgb(255, 255, 255, 255);            
         }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -68,6 +70,7 @@ namespace ColorHand
         private void timer1_Tick(object sender, EventArgs e)
         {
             pictureBox1.BackColor = colorLense2.selectedColor;
+            colorLense2.colorUpdater();
             textBox1.Text = $"{colorLense2.R}, {colorLense2.G}, {colorLense2.B}, {colorLense2.A}";
             textBox2.Text = colorLense2.hex;
         }
