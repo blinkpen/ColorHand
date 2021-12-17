@@ -11,14 +11,14 @@ using ColorHand;
 namespace ColorHand
 {
     public partial class Form1 : Form
-    {        
+    {
         private int xpos;
         private int ypos;
         private Point pos = new Point();
-        public bool running = false;        
+        public bool running = false;
         public Form1()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -80,8 +80,7 @@ namespace ColorHand
             }
             else
             {
-                colorLense2.clock.Start();              
-                
+                colorLense2.clock.Start();                
             }
         }
 
