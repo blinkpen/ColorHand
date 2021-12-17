@@ -13,3 +13,4 @@ F:\Projects\ColorHand\ColorHand\obj\Debug\netcoreapp3.1\ColorHand.csproj.CoreCom
 F:\Projects\ColorHand\ColorHand\obj\Debug\netcoreapp3.1\ColorHand.dll
 F:\Projects\ColorHand\ColorHand\obj\Debug\netcoreapp3.1\ColorHand.pdb
 F:\Projects\ColorHand\ColorHand\obj\Debug\netcoreapp3.1\ColorHand.genruntimeconfig.cache
+F:\Projects\ColorHand\ColorHand\obj\Debug\netcoreapp3.1\ColorHand.csprojAssemblyReference.cache

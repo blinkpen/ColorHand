@@ -88,5 +88,30 @@ namespace ColorHand
         {
             colorLense2.UnHookMouse();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(textBox1.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(textBox2.Text);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(Convert.ToString(colorLense2.R));
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(Convert.ToString(colorLense2.G));
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Clipboard.SetText(Convert.ToString(colorLense2.B));
+        }
     }
 }
