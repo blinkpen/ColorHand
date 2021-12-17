@@ -81,17 +81,17 @@ namespace ColorHand
         }
 
         private Int32 MouseHookProc(Int32 nCode, IntPtr wParam, ref MSLLHOOKSTRUCT lParam)
-        {            
+        {
             if (wParam.ToInt32() == WM_LBUTTONDOWN)
             {
                 UnHookMouse();
-                timer1.Stop();                
+                timer1.Stop();
                 return 1;
             }
 
             if (wParam.ToInt32() == WM_MOUSEHOVER)
             {
-                return 1;                
+                return 1;
             }
             
             return CallNextHookEx(WH_MOUSE_LL, nCode, wParam, ref lParam);
@@ -172,7 +172,7 @@ namespace ColorHand
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {           
+        {
             SetHookMouse();
             using (Bitmap pic = new Bitmap(this.Width, this.Height))
             {
@@ -183,14 +183,13 @@ namespace ColorHand
                 {
                     g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
                     g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
-                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.Half;                    
+                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.Half;
                     g.DrawImage(pic, 0, 0, 257 * 8, 257 * 8);
                     this.BackgroundImage = bmpNew;
                 }
             }
             selectedColor = bmpNew.GetPixel(bmpNew.Width / 2, bmpNew.Height / 2);
-            colorUpdater();     
-
+            colorUpdater();
         }
     }
 }
