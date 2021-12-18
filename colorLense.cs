@@ -91,7 +91,7 @@ namespace ColorHand
 
             if (wParam.ToInt32() == WM_MOUSEHOVER)
             {
-                return 0;
+                return 1;
             }
             
             return CallNextHookEx(WH_MOUSE_LL, nCode, wParam, ref lParam);

@@ -25,7 +25,7 @@ namespace ColorHand
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            colorLense2.selectedColor = Color.FromArgb(255, 255, 255, 255);            
+            colorLense2.selectedColor = Color.FromArgb(255, 255, 255, 255);
         }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
