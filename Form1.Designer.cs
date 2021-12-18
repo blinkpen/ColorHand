@@ -100,9 +100,9 @@ namespace ColorHand
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(5, 7);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 14);
+            this.label3.Size = new System.Drawing.Size(55, 14);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Color Hand";
+            this.label3.Text = "ColorPen";
             this.label3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label3_MouseDown);
             this.label3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label3_MouseMove);
             // 
