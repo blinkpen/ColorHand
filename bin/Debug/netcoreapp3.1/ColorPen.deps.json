@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ColorHand/1.0.0": {
+      "ColorPen/1.0.0": {
         "runtime": {
-          "ColorHand.dll": {}
+          "ColorPen.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ColorHand/1.0.0": {
+    "ColorPen/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

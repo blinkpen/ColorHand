@@ -5,6 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <SignAssembly>false</SignAssembly>
+    <AssemblyName>ColorPen</AssemblyName>
+    <RootNamespace>ColorPen</RootNamespace>
   </PropertyGroup>
 
 </Project>
